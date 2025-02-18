@@ -24,7 +24,12 @@ print(date_year[slice2])
 
 # date_year.add(04); error because tuples like ds4_class are immutable
 
-for student in ds4_class:
-    print(student)
+for year in date_year:
+    print(year)
+
+#New Year 
+print(date_year[::])
+
+          
 
 # Also try slices with negative starting, ending, and steps values 
