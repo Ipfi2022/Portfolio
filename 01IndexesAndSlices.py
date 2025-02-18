@@ -15,7 +15,7 @@ print(date_year[1:6])
 print(date_year[1:])
 print(date_year[:6])
 
-print(date_yeat[1:6:2])
+print(date_year[1:6:2])
 
 slice1 = slice(1, 6, 2)
 print(date_year[slice1])
