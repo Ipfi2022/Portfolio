@@ -29,7 +29,7 @@ Managers: time & user +18 - 80yrs
   # Tool Rank 
              pylint (Top Manager) : Takes decision making and execution of goals planned.
              flake8 (Middle manager) : manages the work of a user(first-line )
-             mypy(First-line manager) : manages the work of a user(employee) involved in an active project
+             mypy(First-line manager) : manages the work of a user(employee) working on a specific  project.
         Defina Orginasation - arragement of users working on a specific project/topic.
              
 
