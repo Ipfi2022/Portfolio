@@ -10,6 +10,8 @@ second_year = date_year[1]
 print(second_year)
 year_before_last = date_year[-2]
 print(year_before_last)
+#rd3_last = date_year[-3]
+#print(rd3_last)
 
 print(date_year[1:6])
 print(date_year[1:])
