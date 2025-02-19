@@ -24,7 +24,7 @@ print(final_results)
 
 Managers: time & user +18 - 80yrs
 
-        Define a Manager- a User(tool) who coordinates and verfiy accomplishments of other users 
+        Define a Manager- a User(tool) who coordinates and verfiy accomplished goals of other users(employees) 
         Example of a manager - pylint & flake8
   # Tool Rank 
              pylint (Top Manager) : Takes decision making and excution of goals planned.
