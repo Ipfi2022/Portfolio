@@ -26,8 +26,8 @@ timetable3 = slice(none, 2)
 print(date_year[timetable3]) == print(date_year[:2])
 
 
-# date_year.add(04); error because tuples like ds4_class are immutable
-
+# date_year.add(04); error because tuples like date_year are immutable
+   date_year.add(9)
 # for year in date_year:
 #    print(year)
 
