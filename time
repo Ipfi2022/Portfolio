@@ -3,7 +3,9 @@ Topic : Time management
 Goals A : Compulsary Pass_mark 50%
 
 pass_mark = ( "10","20","30","40","50","60","70","80","90","100")
-print(pass_mark[4]) 
+print(final_results) 
+fianl_results = pass_mark([4])
+
 
 Goals B : Urgent class_mark 75%
 Goals C : Optional  final_mark 100%
