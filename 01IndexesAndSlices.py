@@ -17,17 +17,21 @@ print(date_year[:6])
 
 print(date_year[1:6:2])
 
-slice1 = slice(1, 6, 2)
-print(date_year[slice1])
-slice2 = slice(1,6)
-print(date_year[slice2])
+timetable1 = slice(1, 6, 2)
+print(date_year[timetable1])
+timetable2 = slice(1,6)
+print(date_year[timetable2])
+
+timetable3 = slice(none, 2)
+print(date_year[timetable3]) == print(date_year[:2])
+
 
 # date_year.add(04); error because tuples like ds4_class are immutable
 
 for year in date_year:
     print(year)
 
-#New Year 
+#Calender Date
 print(date_year[::])
 
           
