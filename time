@@ -14,7 +14,7 @@ final_results  = class_mark([4:7:2])
 print(final_results)
 
 required_mark = slice(4,7,2)
-print(required_mark)
+print(final_mark[required_mark])
 
 Goals C : Optional  final_mark 100%
 
