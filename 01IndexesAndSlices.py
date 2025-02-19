@@ -28,8 +28,8 @@ print(date_year[timetable3]) == print(date_year[:2])
 
 # date_year.add(04); error because tuples like ds4_class are immutable
 
-for year in date_year:
-    print(year)
+# for year in date_year:
+#    print(year)
 
 #Calender Date
 print(date_year[::])
