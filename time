@@ -8,7 +8,14 @@ fianl_results = pass_mark([4])
 
 
 Goals B : Urgent class_mark 75%
+
+final_results  = class_mark([4:7:2])
+print(final_results)
+
 Goals C : Optional  final_mark 100%
+
+final_results = final_mark([-1])
+print(final_results)
 
 Managers: time & user +18 - 80yrs
 
