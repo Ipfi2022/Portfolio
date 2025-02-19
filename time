@@ -8,6 +8,11 @@ Managers: time & user +18 - 80yrs
 
         Define a Manager- a User(tool) who coordinates and verfiy accomplishments of other users 
         Example of a manager - pylint & flake8
+  # Tool Rank 
+             pylint (Top Manager)
+             flake8 (Middle manager)
+             mypy(First-line manager)
+             
 
 Importance of a manager( explain)
 Functions ,Roles and  skills of a manager (discribe) 
