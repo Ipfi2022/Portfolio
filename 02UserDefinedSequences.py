@@ -1,4 +1,8 @@
-from collections.abc import Sequence
+
+# Magic mathod _underscore_ 
+   # Examples of sequence object , tuple,list & tuple
+
+from collections.abc import Sequence   # Interface 
 
 class Teams(Sequence):
     def __init__(self, values, name="DefaultSequence"):
