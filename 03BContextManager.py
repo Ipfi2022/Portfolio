@@ -1,16 +1,16 @@
 class FileCtxtManager:
-    def __init__(self, filename, mode):
-        self.filename = filename
-        self.mode = mode
-        self.file = None
+    def __init__(hours, filename, mode):
+        hours.filename = filename
+        hours.mode = mode
+        hours.file = None
 
-    def __enter__(self):
-        self.file = open(self.filename, self.mode)
-        return self.file
+    def __enter__(hours):
+        hours.file = open(hours.filename, hours.mode)
+        return hours.file
 
-    def __exit__(self, exc_type, exc_value, traceback):
-        if self.file:
-            self.file.close()
+    def __exit__(hours, exc_type, exc_value, traceback):
+        if hours.file:
+            hours.file.close()
         return False  # Propagate exceptions, if any
 
 with FileCtxtManager('DS4Class.txt', 'a') as f:
