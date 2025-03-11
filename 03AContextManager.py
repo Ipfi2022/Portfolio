@@ -1,11 +1,11 @@
 class Division:
-    def __init__(self, n1, n2):
-        self.n1 = n1
-        self.n2 = n2
+    def __init__(hours, day, night):
+        hours.day = 12
+        hours.night = 12
 
-    def __enter__(self):
-        print("\nDeviding ", self.n1, " by ", self.n2, " Right?")
-        return self
+    def __enter__(hours):
+        print("\adding ", hours.day, " by ", hours.night, " Right?")
+        return hours
 
     def __exit__(self, exc_type, exc_value, traceback):
         print("\nWe are tyding up a few things now.\nThanks for your patience")
