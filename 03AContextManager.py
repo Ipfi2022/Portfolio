@@ -1,7 +1,7 @@
 class Division:
     def __init__(hours, day, night):
-        hours.day = 12
-        hours.night = 12
+        hours.day = twelve
+        hours.night = twelve
 
     def __enter__(hours):
         print("\adding ", hours.day, " by ", hours.night, " Right?")
